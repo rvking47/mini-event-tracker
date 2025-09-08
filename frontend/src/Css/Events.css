@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.layout-content {
+  margin-left: 240px; 
+  flex-grow: 1;
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar-collapsed + .layout-content {
+  margin-left: 80px; 
+}
+
+.countevents {
+  background-color: #ffffff; 
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
