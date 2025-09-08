@@ -7,7 +7,7 @@ import { FcReadingEbook } from 'react-icons/fc';
 import { FcFinePrint } from 'react-icons/fc';
 import { FcExternal } from 'react-icons/fc';
 
-const base_url = "http://localhost:8000"; 
+const base_url = "https://mini-event-tracker-1.onrender.com"; 
 
 const PublicLink = () => {
   const { publicId } = useParams();
@@ -74,3 +74,4 @@ const PublicLink = () => {
 };
 
 export default PublicLink;
+
