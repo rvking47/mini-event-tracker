@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 const GetEvents = () => {
-  const base_url = "http://localhost:8000";
+  const base_url = "https://mini-event-tracker-1.onrender.com";
 
   const [events, setEvents] = useState([]);   
   const [filteredEvents, setFilteredEvents] = useState([]);
@@ -256,3 +256,4 @@ const handleUpdate=async(id, updatedEvent)=>{
 };
 
 export default GetEvents;
+
