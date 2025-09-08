@@ -4,7 +4,7 @@ import { FcCalendar, FcClock, FcOk } from "react-icons/fc";
 import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
 
-const base_url="http://localhost:8000";
+const base_url="https://mini-event-tracker-1.onrender.com";
 
 const Countevents = () => {
     const [getEvents, setGetevennts]=useState([]);
@@ -79,5 +79,6 @@ useEffect(()=>{
     </>
   )
 }
+
 
 export default Countevents
