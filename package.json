@@ -2,11 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "module",
   "scripts": {
   "start": "node backend/server.js",
   "dev": "nodemon backend/server.js",
-  "install": "npm install --legacy-peer-deps --prefix backend && npm install --legacy-peer-deps --prefix frontend",
-  "build": "npm run build --prefix frontend"
+  "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
 },
   "keywords": [],
   "author": "",
