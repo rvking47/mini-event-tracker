@@ -2,6 +2,8 @@
 
 A lightweight event management web application where users can create, view, and manage events with details like title, location, description, and date/time. Includes user authentication, form validation, and secure password handling.
 
+--live demo: https://mini-event-tracker-1.onrender.com/
+
 ---Features---
 
 . 👤 User Authentication (Register/Login with JWT)
