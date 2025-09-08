@@ -4,7 +4,7 @@ import { useState } from 'react'
 import toast from 'react-hot-toast';
 import { FaAlignLeft, FaCalendarPlus, FaHeading, FaMapMarkerAlt, FaRegCalendarAlt, FaTimes } from 'react-icons/fa'
 
-const base_url="http://localhost:8000";
+const base_url="https://mini-event-tracker-1.onrender.com";
 
 const CreateEvents = () => {
   
@@ -97,5 +97,6 @@ const CreateEvents = () => {
     </>
   )
 }
+
 
 export default CreateEvents
