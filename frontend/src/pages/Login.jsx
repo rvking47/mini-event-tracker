@@ -9,7 +9,7 @@ import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 
-const base_url="http://localhost:8000";
+const base_url="https://mini-event-tracker-1.onrender.com";
 
 const Login = () => {
     
@@ -101,5 +101,6 @@ const Login = () => {
   </>
   )
 }
+
 
 export default Login
